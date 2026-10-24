@@ -206,6 +206,11 @@ th.pb-1 {
     color: #f7fbff !important;
 }
 
+.table .left {
+    border: none !important;
+    background: rgba(123,138,198,0.1) !important;
+}
+
 a:link, a:visited {
     color: #f7fbff !important;
 }
