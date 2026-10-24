@@ -29,7 +29,7 @@ h1 {
     background-size: 100%; 
     } }
 
-@media screen and (max-width: 600px) {{
+@media screen and (max-width: 600px) {.theme_default {
     background: rgba(79,94,147,0.9);
     background-size: cover;
     }}
