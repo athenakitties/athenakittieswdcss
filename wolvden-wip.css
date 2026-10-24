@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Parisienne&display=swap');
+
+body {
+    font-family: "Old Standard TT" !important;
+    font-size: 0.85rem !important; 
+}
+
+.mr-auto .nav-link {
+    font-family: "Old Standard TT" !important;
+    font-size: 1rem !important;
+    font-weight: bold !important; 
+}
+
+h1 {
+    font-family: "Parisienne" !important;
+    font-size: 3rem !important;
+    text-align: center !important; 
+    color: #f7fbff !important; 
+}
+
+.multi-column a b {
+    font-family: "Old Standard TT" !important;
+    font-size: 1rem !important;
+    font-weight: bold !important; 
+}
+
+.theme_default { 
+    background: url("https://i.ibb.co/F4xpJ2Zz/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center center fixed !important; 
+    background-size: 100% !important; 
+}
+
+.col-lg-9.order-lg-2 {
+    background: rgba(79,94,147,0.3) !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    color: #f7fbff !important; 
+}
+
+.breadcrumb-nav {
+    background: rgba(122,135,181,0.3) !important;
+    border-radius: 12px !important;
+    color: #f7fbff !important; 
+}
+
+.order-lg-1 {
+    background: rgba(122,135,181,0.3) !important;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 12px !important; 
+}
+
+.navbar-status {
+    background: rgba(143,156,205,0.3) !important;
+    border-radius: 12px !important; 
+}
+
+.breadcrumb-item.active {
+    color: #f7fbff !important;
+}
+
+.navbar-main {
+    background: rgba(85,95,132,0.3) !important;
+}
+
+.fa-paw, .fa-globe-americas, .fa-drumstick-bite, .fa-comments, .fa-feather-alt, .fa-calendar-alt, .fa-gem, .fa-question-circle {
+    color: #f7fbff !important;
+}
+#sidebar .card {
+    background: rgba(27,39,81,0.3) !important;
+    border-radius: 12px !important;
+    border-bottom-color: rgba(26,33,62,0.3) !important;
+    color: #f7fbff !important;
+}
+
+#sidebar #card-user a img {
+    border-radius: 12px !important;
+}
+
+.alert-info, .alert-danger, .alert-success, .alert-primary {
+    background: rgba(17,25,59,0.3) !important;
+    border-radius: 12px !important;
+    border-color: rgba(12,19,48,1) !important;
+    color: #f7fbff !important;
+}
+
+.nav, .nav-tabs .nav-link, .nav-link.active {
+    border-color: rgba(123,138,198,0.3) !important;
+    border-width: 3.5px !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    background: none !important;
+}
+
+.table {
+    border: none !important;
+    background: rgba(123,138,198,0.1) !important;
+    border-radius: 12px !important;
+    
+    
+}
+th.pb-1 {
+    background: rgba(21,33,81,0.9) !important;
+    border-radius: 12px !important;
+}
+
+#main .card {
+    border-radius: 12px !important;
+    background: rgba(5,12,37,0.5) !important;
+}
+
+.card-img-top {
+    border-radius: 12px !important;
+}
+
+.featured-wolf img {
+    border-radius: 12px !important;
+}
+
+.text-danger {
+    color: #f3f9ff !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(110,123,175,0.3) !important;
+    border: none !important;
+}
+
+.table tr.pup, .table tr.pup:nth-of-type(odd) {
+	background-color: rgba(142,155,202,0.3) !important;
+    border: none !important;
+}
+.table .subheader, .bottom {
+    background: rgba(26,47,94,0.9) !important;
+}       
+
+.table th {
+    background: rgba(12,26,58,0.6) !important;
+    border-top-right-radius: 12px !important;
+    border-top-left-radius: 12px !important;
+}
+
+.bottom .form-control {
+    background: rgba(12,26,58,0.3) !important;
+    border-color: rgba(12,26,58,1) !important;
+    border-radius: 12px !important;
+    color: #f7fbff !important;
+}
+
+.bottom {
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+
+.bg-warning, .bg-success {
+    background: rgba(137,153,187,0.6) !important;
+}
+
+.bg-primary {
+    background: rgba(106,126,168,0.6) !important;
+}
+.bg-danger {
+    background: rgba(94,110,145,0.6) !important;
+}
+
+.bg-info {
+    background: rgba(67,91,143,0.6) !important;
+}
+
+.card-body .progress, .progress {
+    background: rgba(12,35,81,0.3) !important;
+}
+
+#main .btn, #sidebar .btn,.btn-primary, .s-chat-sidebar #label_currentChannel {
+    background: rgba(12,26,58,0.3) !important;
+    border-radius: 12px !important;
+    color: #f7fbff;
+    border-color: rgba(12,26,58,1) !important;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+    background: rgba(11,24,54,0.3) !important;
+    color: #f7fbff !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    background: rgba(36,55,100,0.3) !important;
+    color: #f7fbff !important;
+}
+
+.s-chat-message:nth-child(even) {
+    background: rgba(12,26,58,0.3) !important;
+    color: #f7fbff !important;
+}
+
+a:link, a:visited {
+    color: #f7fbff !important;
+}
+   
+a:hover {
+    color: #c6defb !important; 
+}
