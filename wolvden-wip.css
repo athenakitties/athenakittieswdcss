@@ -25,7 +25,8 @@ h1 {
 }
 
 @media screen and (min-width: 601px) {.theme_default { 
-    background: url("https://i.ibb.co/F4xpJ2Zz/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center center fixed; 
+    background: url("https://i.ibb.co/F4xpJ2Zz/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center center fixed;
+	image-rendering: -webkit-optimize-contrast;
     background-size: 100%; 
     } }
 
