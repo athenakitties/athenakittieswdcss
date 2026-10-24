@@ -2,7 +2,8 @@
 
 body {
     font-family: "Old Standard TT" !important;
-    font-size: 0.85rem !important; 
+    font-size: 0.85rem !important;
+    text-shadow: 0 0 3px #f7fbff
 }
 
 .mr-auto .nav-link {
@@ -26,41 +27,30 @@ h1 {
 
 @media screen and (min-width: 601px) {.theme_default { 
     background: url("https://i.postimg.cc/5Nj8SC5y/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center center fixed;
-	image-rendering: -webkit-optimize-contrast;
     background-size: 100%; 
     } }
 
 @media screen and (max-width: 600px) {.theme_default {
-    background: rgba(79,94,147,0.9);
     background-size: cover;
     }}
 
 .col-lg-9.order-lg-2 {
     background: rgba(79,94,147,0.3) !important;
-    border-top-right-radius: 12px !important;
-    border-bottom-right-radius: 12px !important;
-    border-top-left-radius: 5px !important;
-    border-bottom-left-radius: 5px !important;
-    color: #f7fbff !important; 
+    border-radius: 13px !important;
+    color: #f7fbff !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
-.breadcrumb-nav {
-    background: rgba(122,135,181,0.3) !important;
+.breadcrumb-nav, .order-lg-1 {
+    background: rgba(122,135,181,0) !important;
     border-radius: 12px !important;
     color: #f7fbff !important; 
 }
 
-.order-lg-1 {
-    background: rgba(122,135,181,0.3) !important;
-    border-top-right-radius: 5px !important;
-    border-top-left-radius: 12px !important;
-    border-bottom-right-radius: 5px !important;
-    border-bottom-left-radius: 12px !important; 
-}
-
 .navbar-status {
-    background: rgba(143,156,205,0.3) !important;
-    border-radius: 12px !important; 
+    background: rgba(143,156,205,0.2) !important;
+    border-radius: 13px !important; 
+    box-shadow: 0 5px 4px 6px rgba(20,29,61,0.4);
 }
 
 .breadcrumb-item.active {
@@ -68,21 +58,26 @@ h1 {
 }
 
 .navbar-main {
-    background: rgba(85,95,132,0.3) !important;
+    background: rgba(85,95,132,0.2) !important;
+    border-radius: 13px !important;
+    box-shadow: 0 0 4px 6px rgba(4,8,25,0.4);
 }
 
 .fa-paw, .fa-globe-americas, .fa-drumstick-bite, .fa-comments, .fa-feather-alt, .fa-calendar-alt, .fa-gem, .fa-question-circle {
     color: #f7fbff !important;
 }
 #sidebar .card {
-    background: rgba(27,39,81,0.3) !important;
+    background: rgba(79,94,147,0.2) !important;
     border-radius: 12px !important;
-    border-bottom-color: rgba(26,33,62,0.3) !important;
+    border-bottom-color: rgba(79,94,147,0.2) !important;
     color: #f7fbff !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+
 }
 
 #sidebar #card-user a img {
     border-radius: 12px !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 .alert-info, .alert-danger, .alert-success, .alert-primary {
@@ -90,10 +85,12 @@ h1 {
     border-radius: 12px !important;
     border-color: rgba(12,19,48,1) !important;
     color: #f7fbff !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+
 }
 
 .nav, .nav-tabs .nav-link, .nav-link.active {
-    border-color: rgba(123,138,198,0.3) !important;
+    border-color: rgba(7,14,38,0.15) !important;
     border-width: 3.5px !important;
     border-top-left-radius: 12px !important;
     border-top-right-radius: 12px !important;
@@ -104,9 +101,9 @@ h1 {
     border: none !important;
     background: rgba(123,138,198,0.1) !important;
     border-radius: 12px !important;
-    
-    
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
+
 th.pb-1 {
     background: rgba(21,33,81,0.9) !important;
     border-radius: 12px !important;
@@ -115,14 +112,17 @@ th.pb-1 {
 #main .card {
     border-radius: 12px !important;
     background: rgba(5,12,37,0.5) !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 .card-img-top {
     border-radius: 12px !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 .featured-wolf img {
     border-radius: 12px !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 .text-danger {
@@ -153,6 +153,7 @@ th.pb-1 {
     border-color: rgba(12,26,58,1) !important;
     border-radius: 12px !important;
     color: #f7fbff !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 .bottom {
@@ -177,6 +178,7 @@ th.pb-1 {
 
 .card-body .progress, .progress {
     background: rgba(12,35,81,0.3) !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 #main .btn, #sidebar .btn,.btn-primary, .s-chat-sidebar #label_currentChannel {
@@ -184,6 +186,7 @@ th.pb-1 {
     border-radius: 12px !important;
     color: #f7fbff;
     border-color: rgba(12,26,58,1) !important;
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
 
 #chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
