@@ -26,12 +26,14 @@ h1 {
 }
 
 @media screen and (min-width: 601px) {.theme_default { 
-    background: url("https://i.postimg.cc/5Nj8SC5y/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center center fixed;
-    background-size: 100%; 
+    background: url("https://i.postimg.cc/5Nj8SC5y/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center top fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     } }
 
 @media screen and (max-width: 600px) {.theme_default {
     background-size: cover;
+    background-repeat: no-repeat;
     }}
 
 .col-lg-9.order-lg-2 {
@@ -210,4 +212,19 @@ a:link, a:visited {
    
 a:hover {
     color: #c6defb !important; 
+}
+
+-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+-webkit-scrollbar-track {
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+    background-color: rgba(38,50,96,0.6);
+}
+
+-webkit-scrollbar-thumb {
+    background: rgba(38,50,96,1);
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
 }
