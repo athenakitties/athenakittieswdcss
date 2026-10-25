@@ -95,7 +95,7 @@ h2 {
 }
 
 .alert-info, .alert-danger, .alert-success, .alert-primary {
-    background: rgba(17,25,59,0.3) !important;
+    background-image: linear-gradient(to right, rgba(17,25,59,0.3), rgba(92,104,154,0.3)) !important;
     border-radius: 12px !important;
     border-color: rgba(12,19,48,1) !important;
     color: #f7fbff !important;
@@ -119,7 +119,7 @@ h2 {
 }
 
 th.pb-1 {
-    background: rgba(21,33,81,0.9) !important;
+    background-image: linear-gradient(to right, rgba(15,26,71,0.3), rgba(71,91,170,0.3)) !important;
     border-radius: 12px !important;
 }
 
@@ -154,10 +154,10 @@ th.pb-1 {
 }
 .table .subheader, .bottom {
     background: rgba(26,47,94,0.9) !important;
-}       
+}       rgba(8,21,51,0.6)
 
 .table th {
-    background: rgba(12,26,58,0.6) !important;
+    background: rgba(12,26,58,0.7) !important;
     border-top-right-radius: 12px !important;
     border-top-left-radius: 12px !important;
 }
@@ -176,23 +176,24 @@ th.pb-1 {
 }
 
 .bg-warning, .bg-success {
-    background: rgba(137,153,187,0.6) !important;
+    background-image: linear-gradient(to right, rgba(70,107,183,0.6), rgba(172,199,255,0.6)) !important;
 }
 
 .bg-primary {
-    background: rgba(106,126,168,0.6) !important;
+    background-image: linear-gradient(to right, rgba(41,79,158,0.6), rgba(124,158,228,0.6)) !important;
 }
+
 .bg-danger {
-    background: rgba(94,110,145,0.6) !important;
+    background-image: linear-gradient(to right, rgba(29,62,132,0.6), rgba(92,127,200,0.6)) !important;
 }
 
 .bg-info {
-    background: rgba(67,91,143,0.6) !important;
+    background-image: linear-gradient(to right, rgba(24,50,109,0.6), rgba(69,100,166,0.6)) !important;
 }
 
-.card-body .progress, .progress {
+.card-body .progrgba(43,70,125,0.3)
     background: rgba(12,35,81,0.3) !important;
-    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+    box-shadow: 0 0 4px 6px rgba(20,28,60,0.4) !important;
 }
 
 #main .btn, #sidebar .btn,.btn-primary, .s-chat-sidebar #label_currentChannel {
