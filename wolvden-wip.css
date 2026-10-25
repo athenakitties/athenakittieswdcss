@@ -3,7 +3,7 @@
 body {
     font-family: "Old Standard TT" !important;
     font-size: 0.85rem !important;
-    text-shadow: 0 0 3px #f7fbff
+    text-shadow: 0 0 2.5px #f7fbff
 }
 
 .mr-auto .nav-link {
@@ -236,4 +236,8 @@ a:hover {
 -webkit-scrollbar-thumb {
     background: rgba(38,50,96,1);
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+}
+
+.row.justify-content-center {
+    text-shadow: none !important;
 }
