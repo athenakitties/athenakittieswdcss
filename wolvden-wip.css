@@ -86,7 +86,6 @@ h2 {
     border-bottom-color: rgba(79,94,147,0.2) !important;
     color: #f7fbff !important;
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
-
 }
 
 #sidebar #card-user a img {
@@ -95,12 +94,12 @@ h2 {
 }
 
 .alert-info, .alert-danger, .alert-success, .alert-primary {
+    background: none;
     background-image: linear-gradient(to right, rgba(17,25,59,0.3), rgba(92,104,154,0.3)) !important;
     border-radius: 12px !important;
     border-color: rgba(12,19,48,1) !important;
     color: #f7fbff !important;
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
-
 }
 
 .nav, .nav-tabs .nav-link, .nav-link.active {
@@ -119,7 +118,8 @@ h2 {
 }
 
 th.pb-1 {
-    background-image: linear-gradient(to right, rgba(15,26,71,0.3), rgba(71,91,170,0.3)) !important;
+    background: none;
+    background-image: linear-gradient(to right, rgba(4,11,43,0.5), rgba(78,91,145,0.5)) !important;
     border-radius: 12px !important;
 }
 
@@ -152,6 +152,7 @@ th.pb-1 {
 	background-color: rgba(142,155,202,0.3) !important;
     border: none !important;
 }
+
 .table .subheader, .bottom {
     background: rgba(26,47,94,0.9) !important;
 }       rgba(8,21,51,0.6)
@@ -176,23 +177,32 @@ th.pb-1 {
 }
 
 .bg-warning, .bg-success {
-    background-image: linear-gradient(to right, rgba(70,107,183,0.6), rgba(172,199,255,0.6)) !important;
+    background: none !important;
+    background-image: linear-gradient(to right, rgba(92,121,179,0.6), rgba(200,217,253,0.6)) !important;
 }
 
 .bg-primary {
-    background-image: linear-gradient(to right, rgba(41,79,158,0.6), rgba(124,158,228,0.6)) !important;
+    background: none !important;
+    background-image: linear-gradient(to right, rgba(73,101,162,0.6), rgba(150,177,232,0.6)) !important;
 }
 
 .bg-danger {
-    background-image: linear-gradient(to right, rgba(29,62,132,0.6), rgba(92,127,200,0.6)) !important;
+    background: none !important;
+    background-image: linear-gradient(to right, rgba(48,73,126,0.6), rgba(127,148,187,0.6)) !important;
 }
 
 .bg-info {
-    background-image: linear-gradient(to right, rgba(24,50,109,0.6), rgba(69,100,166,0.6)) !important;
+    background: none !important;
+    background-image: linear-gradient(to right, rgba(34,54,100,0.6), rgba(91,112,158,0.6)) !important;
 }
 
-.card-body .progrgba(43,70,125,0.3)
-    background: rgba(12,35,81,0.3) !important;
+.card-body .bg-success {
+    background: none;
+    background-image: linear-gradient(to right, rgba(26,43,81,0.6), rgba(54,76,128,0.6)) !important;
+}
+
+.card-body .progress, .table .progress {
+    background: rgba(2,12,30,0.3) !important;
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4) !important;
 }
 
