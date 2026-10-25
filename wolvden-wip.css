@@ -19,6 +19,13 @@ h1 {
     color: #f7fbff !important; 
 }
 
+h2 {
+    font-family: "Parisienne";
+    font-size: 2.28rem;
+    text-align: center !important;
+    color: #f7fbff;
+}
+
 .multi-column a b {
     font-family: "Old Standard TT" !important;
     font-size: 1rem !important;
