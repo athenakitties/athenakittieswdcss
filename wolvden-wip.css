@@ -25,6 +25,10 @@ h1 {
     font-weight: bold !important; 
 }
 
+.text-muted small {
+    color: #c4d4e4;
+}
+
 @media screen and (min-width: 601px) {.theme_default { 
     background: url("https://i.postimg.cc/5Nj8SC5y/tim-oun-x2l-SUADXQi-U-unsplash.jpg") center top fixed;
     background-size: cover;
