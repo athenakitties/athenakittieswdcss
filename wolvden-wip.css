@@ -157,7 +157,7 @@ th.pb-1 {
     background: rgba(26,47,94,0.9) !important;
 }
 
-.table th {
+.top {
     background: rgba(12,26,58,0.7) !important;
     border-top-right-radius: 12px !important;
     border-top-left-radius: 12px !important;
