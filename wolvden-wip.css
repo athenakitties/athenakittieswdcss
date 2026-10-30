@@ -319,35 +319,37 @@ a:hover {
 
 .lorebox {
     width: 100%;
-    height: 250px;
-    background: rgba(12,23,63,0.2) !important;
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(27,44,102,0.3), rgba(1,6,24,0.3)) !important;
     border: none;
     border-radius: 13px;
     box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
     margin-bottom: 10px;
     float: center !important;
-    text-align: center;
+    text-align: justify;
     padding: 10px;
     overflow: auto;
+    transition: 1s;
 }
 
 .packstructbox {
     width: 64%;
-    height: 250px;
-    background: rgba(12,23,63,0.2);
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(27,44,102,0.3), rgba(1,6,24,0.3)) !important;
     border: none;
     border-radius: 13px;
     box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);    
     float: left;
-    text-align: center;
+    text-align: justify;
     padding: 10px;
     overflow: auto;
+    transition: 1s;
 }
 
 .symbolbox {
     width: 33%;
-    height: 250px;
-    background: rgba(12,23,63,0.2);
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(27,44,102,0.3), rgba(1,6,24,0.3)) !important;
     border: none;
     border-radius: 13px;
     box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
@@ -356,4 +358,9 @@ a:hover {
     padding: 10px;
     overflow: auto;
     margin-bottom: 30px;
+    transition: 1s;
+}
+
+.lorebox:hover, .packstructbox:hover, .symbolbox:hover {
+    height: 500px;
 }
