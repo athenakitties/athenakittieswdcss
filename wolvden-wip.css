@@ -299,23 +299,23 @@ a:hover {
     color: #c6defb !important; 
 }
 
-.scroll-container::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 12px !important;
   height: 12px !important;
 }
 
-.scroll-container::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: rgba(90,108,171,0.5) !important;
   border-radius: 6px !important;
 }
 
-.scroll-container::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: rgba(27,44,103,0.5) !important;
   border-radius: 6px !important;
   border: none !important;
 }
 
-.scroll-container::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background-color: rgba(6,17,55,0.5) !important;
 }
 
