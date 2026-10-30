@@ -26,7 +26,7 @@ h2 {
     color: #f7fbff;
 }
 
-.lorebox h3, .packstructbox h3, .symbolbox h3 {
+.lorebox h3, .packstructbox h3, .symbolbox h3, .aboutbox h3, .goalbox h3 {
     font-family: "Parisienne";
     font-size: 2.28rem;
     text-align: center !important;
