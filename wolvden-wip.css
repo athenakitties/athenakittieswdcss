@@ -26,6 +26,12 @@ h2 {
     color: #f7fbff;
 }
 
+.lorebox h3, .packstructbox h3, .symbolbox h3 {
+    font-family: "Parisienne";
+    font-size: 2.28rem;
+    text-align: center !important;
+}
+
 .multi-column a b {
     font-family: "Old Standard TT" !important;
     font-size: 1rem !important;
@@ -35,6 +41,14 @@ h2 {
 .text-muted small, .text-td-bottom, .form-text, i.text-muted {
     color: #c4d4e4;
     text-shadow: none;
+}
+
+.text-success {
+    color: #d7e7f7 !important;
+}
+
+.text-success .fa-circle {
+    color: none !important;
 }
 
 @media screen and (min-width: 601px) {.theme_default { 
@@ -86,6 +100,7 @@ h2 {
     border-bottom-color: rgba(79,94,147,0.2) !important;
     color: #f7fbff !important;
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+
 }
 
 #sidebar #card-user a img {
@@ -100,6 +115,7 @@ h2 {
     border-color: rgba(12,19,48,1) !important;
     color: #f7fbff !important;
     box-shadow: 0 0 4px 6px rgba(20,28,60,0.4);
+
 }
 
 .nav, .nav-tabs .nav-link, .nav-link.active {
@@ -121,6 +137,42 @@ th.pb-1 {
     background: none;
     background-image: linear-gradient(to right, rgba(4,11,43,0.5), rgba(78,91,145,0.5)) !important;
     border-radius: 12px !important;
+}
+
+#lblPackLeaderTitle {
+    visibility: hidden;
+    position: relative;
+}
+
+#lblPackLeaderTitle::after {
+    content: "Star Seer";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    transform: translatex(5px);
+    transform: translatey(-5px);
+    font-size: 1.5rem;
+    width: max-content;
+}
+
+.pt-1 a {
+    position: absolute !important;
+    transform: translate(9px, -5px);
+    font-size: 1.5rem;
+}
+
+.featured-wolf .b {
+    visibility: hidden;
+    position: relative;
+}
+
+.featured-wolf .b::after {
+    content: "Snow Chaser";
+    visibility: visible;
+    position: absolute;
+    font-size: 1.14rem;
+    transform: translate(-85px, -8px) !important;
+    width: max-content;
 }
 
 #main .card {
@@ -263,4 +315,45 @@ a:hover {
 
 * {
   cursor: url('https://cdn.cursors-4u.net/previews/blue-snowflake-65b8ef3c-32.webp') 32 32, auto !important;
+}
+
+.lorebox {
+    width: 100%;
+    height: 250px;
+    background: rgba(12,23,63,0.2) !important;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
+    margin-bottom: 10px;
+    float: center !important;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.packstructbox {
+    width: 64%;
+    height: 250px;
+    background: rgba(12,23,63,0.2);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);    
+    float: left;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+.symbolbox {
+    width: 33%;
+    height: 250px;
+    background: rgba(12,23,63,0.2);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
+    float: right;
+    text-align: left;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
 }
