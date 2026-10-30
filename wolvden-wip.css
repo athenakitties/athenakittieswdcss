@@ -366,6 +366,40 @@ a:hover {
     transition: 1s;
 }
 
+.aboutbox {
+    width: 48%;
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(27,44,102,0.3), rgba(1,6,24,0.3)) !important;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
+    float: left;
+    text-align: left;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
+.goalbox {
+    width: 48%;
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgba(27,44,102,0.3), rgba(1,6,24,0.3)) !important;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 0 4px 6px rgba(28,37,75,0.4);
+    float: right;
+    text-align: left;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+
 .lorebox:hover, .packstructbox:hover, .symbolbox:hover {
     height: 500px;
+}
+
+.aboutbox:hover, .goalbox:hover {
+    height: 370px;
 }
