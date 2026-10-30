@@ -260,3 +260,7 @@ a:hover {
 .row.justify-content-center {
     text-shadow: none !important;
 }
+
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/blue-snowflake-65b8ef3c-32.webp') 32 32, auto !important;
+}
