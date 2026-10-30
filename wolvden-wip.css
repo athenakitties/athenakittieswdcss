@@ -32,6 +32,10 @@ h2 {
     text-align: center !important;
 }
 
+.packstructbox h4 {
+    font-weight: bold;
+}
+
 .multi-column a b {
     font-family: "Old Standard TT" !important;
     font-size: 1rem !important;
