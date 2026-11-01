@@ -200,6 +200,52 @@ th.pb-1 {
     color: #f3f9ff !important;
 }
 
+img[src$="packdynasty.png"] {
+    content: url("https://i.postimg.cc/442ngbVp/pexels-nicolas-outin-306413544-13444721.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+img[src$="packoverview.png"] {
+    content: url("https://i.postimg.cc/zX2SbgWb/pexels-alinluna-14933527.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+img[src$="breeding.png"] {
+    content: url("https://i.postimg.cc/1zxcmZh1/pexels-alohaphotostudio-39876993.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+img[src$="pupsitting.png"] {
+    content: url("https://i.postimg.cc/13MsPyNg/pexels-andreas-schnabl-1775843-20757704.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+img[src$="nesting.png"] {
+    content: url("https://i.postimg.cc/Vv9WTGHd/pexels-rpnickson-2885320.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+img[src$="socializing.png"] {
+    content: url("https://i.postimg.cc/J0Z01Sbn/pexels-henrix-4069591.jpg") !important;
+    width: auto;
+    height: 103.48px;
+    border-radius: 13px;
+}
+
+.center .card-header {
+    border-radius: 13px;
+}
+
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: rgba(110,123,175,0.3) !important;
     border: none !important;
